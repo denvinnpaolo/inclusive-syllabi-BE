@@ -10,3 +10,4 @@ serverConfig(server);
 server.get('/', (req, res) => {res.status(200).json({api: 'Server is up and running :)'})});
 
 module.exports = server;
+
